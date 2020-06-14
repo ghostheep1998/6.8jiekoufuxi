@@ -1,0 +1,12 @@
+2020-06-09 11:53:07,005 INFO [root] [__init__.py(<module>:5)] - Test日志会不会打印！！！
+2020-06-09 11:53:07,851 INFO [root] [test_ihrm_login.py(test01_login_success:25)] - 登录成功的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b4a5949d-1c12-4360-a528-4dd90dc25c0b'}
+2020-06-09 11:53:08,244 INFO [root] [test_ihrm_login.py(test02_mobile_is_empty:33)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:08,427 INFO [root] [test_ihrm_login.py(test03_mobile_is_not_exists:41)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:08,728 INFO [root] [test_ihrm_login.py(test04_password_is_error:49)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:09,182 INFO [root] [test_ihrm_login.py(test05_params_is_none:57)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:09,788 INFO [root] [test_ihrm_login.py(test06_params_is_null:65)] - 登录成功的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-06-09 11:53:10,139 INFO [root] [test_ihrm_login.py(test07_more_params:73)] - 登录成功的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '242bd289-76fc-441b-9bb4-72d12f4e2ecb'}
+2020-06-09 11:53:10,645 INFO [root] [test_ihrm_login.py(test08_less_params_mobile:81)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:10,936 INFO [root] [test_ihrm_login.py(test09_less_password:89)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:11,022 INFO [root] [test_ihrm_login.py(test10_params_is_error:97)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 11:53:11,168 INFO [root] [test_ihrm_login.py(test11_password_is_empty:105)] - 登录成功的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
